@@ -92,6 +92,11 @@ p {
   justify-content: center;
 }
 
+.tm-about-1 {
+  padding: 30px;
+  max-width: 100%;
+}
+
 /* membre des associations */
 .tm-media > div > ul > li {
   margin-left: 8%;
@@ -119,6 +124,10 @@ p {
       min-height: 500px; */
     /* margin-left: -40px;
       margin-right: -40px;   */
+  }
+
+  .tm-lecture-bg {
+    background-image: url(../img/books.jpg);
   }
 
   /* Call to Action */
@@ -243,9 +252,7 @@ footer ul li a span {
   color: #999;
 }
 
-.tm-about-bg {
-  background-image: url(../img/new-vision-02.jpg);
-}
+
 .tm-services-bg {
   background-image: url(../img/new-vision-03.jpg);
 }
@@ -558,7 +565,7 @@ nav > ul > li {
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
-  color: #c99;
+  color: #09f;
 }
 
 /* footer {
@@ -729,11 +736,6 @@ figure.effect-honey:hover h4 i {
     margin-right: auto;
     min-width: 160px;
   }
-}
-
-.tm-about-1 {
-  padding: 30px;
-  max-width: 540px;
 }
 
 /*---------------*/
