@@ -114,14 +114,14 @@ p {
 .tm-section-header-small {
   font-size: 1.4rem;
   padding: 25px 150px 25px 30px;
-  width: 450px;
+  width: 360px;
 }
 
 .tm-header-floating {
   position: absolute;
   z-index: 100;
   top: -30px;
-  width: 350px;
+  width: 360px;
 
 }
 
