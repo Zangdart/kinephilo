@@ -69,13 +69,20 @@ p {
 .icon-description{
   margin-left: 5%;
   font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
   font-size: 40px;
 
 }
+.effect-zoe img {
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.icon-description:hover{
-  color: #09f;
-
+.small-icon-description{
+  margin-left: 5%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 20px;
 }
 
 .tm-about {
@@ -99,8 +106,23 @@ p {
   width: 50%;
 }
 
-.tm-article-title:hover, .tm-site-name:hover {
+.tm-article-title:hover, .tm-site-name:hover,
+.tm-article-icon:hover, footer ul li:nth-child(3) a span:hover {
   color: #09f;
+}
+
+.tm-section-header-small {
+  font-size: 1.4rem;
+  padding: 25px 150px 25px 30px;
+  width: 450px;
+}
+
+.tm-header-floating {
+  position: absolute;
+  z-index: 100;
+  top: -30px;
+  width: 350px;
+
 }
 
 .tm-about-icon {
@@ -195,7 +217,7 @@ p {
 }
 
 .call-top-action p:nth-child(1) {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 /* Footer */
@@ -215,8 +237,10 @@ footer ul {
 
 footer ul li {
     display: inline-block;
+    position: relative;
 }
 
+/* space between 2 icons */
 footer ul li:nth-child(2) {
     display: inline-block;
     margin-left: 25px;
@@ -224,7 +248,7 @@ footer ul li:nth-child(2) {
 
 
 
-footer ul li a span {
+ footer ul li a span {
     width: 50px;
     height: 50px;
     background: #42484C;
@@ -235,6 +259,15 @@ footer ul li a span {
     border-radius: 50%;
 }
 
+/* to the top arrow */
+footer ul li:nth-child(3) {
+  position: absolute;
+  margin-left: 43%;
+}
+
+footer ul li:nth-child(3) a span {
+  background: #85ec93;
+}
 /*--------------------- end custom code ----------------------------------*/
 
 .tm-color-primary {
@@ -447,17 +480,6 @@ nav > ul > li {
   .tm-section-header {
     padding: 20px;
   }
-}
-
-.tm-section-header-small {
-  font-size: 1.4rem;
-  padding: 25px 150px 25px 30px;
-}
-
-.tm-header-floating {
-  position: absolute;
-  z-index: 100;
-  top: -30px;
 }
 
 .tm-welcome-row {
