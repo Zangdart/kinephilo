@@ -66,6 +66,18 @@ p {
   height: 90%;
 }
 
+.icon-description{
+  margin-left: 5%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 40px;
+
+}
+
+.icon-description:hover{
+  color: #09f;
+
+}
+
 .tm-about {
   margin-right: 2%;
   max-width: 800px;
@@ -74,6 +86,12 @@ p {
 .leftMargin {
   /* margin-left: 5%; */
 
+}
+
+.customSizeImg {
+  width: 100%;
+  max-height : 300px;
+  margin-bottom: 5%;
 }
 
 .tm-media-body {
@@ -125,6 +143,25 @@ p {
     /* margin-left: -40px;
       margin-right: -40px;   */
   }
+
+  .tm-article-icon {
+    color: rgb(236, 198, 128);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .tm-btn {
+    background-color:rgb(236, 198, 128);
+    color: white;
+    padding: 10px 25px;
+  }
+
+.tm-btn:hover,
+.tm-btn:focus {
+  background-color: #85ec93;
+  text-decoration: none;
+  color: white;
+}
 
   .tm-lecture-bg {
     background-image: url(../img/books.jpg);
@@ -484,12 +521,6 @@ nav > ul > li {
   height: 100%;
 }
 
-.tm-article-icon {
-  color: #c99;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
 .tm-article-title {
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -503,19 +534,6 @@ nav > ul > li {
 
 .tm-article-link {
   align-self: flex-end;
-}
-
-.tm-btn {
-  background-color: #c99;
-  color: white;
-  padding: 10px 25px;
-}
-
-.tm-btn:hover,
-.tm-btn:focus {
-  background-color: #924141;
-  text-decoration: none;
-  color: white;
 }
 
 .tm-btn-rounded {
