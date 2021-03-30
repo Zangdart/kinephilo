@@ -36,6 +36,8 @@ body {
 a {
   transition: all 0.3s ease;
   text-decoration: none;
+  /* added to click on recommended books */
+  outline: none;
 }
 
 a:hover {
@@ -58,6 +60,7 @@ p {
 }
 
 /*--------------------- custom code ----------------------------------*/
+
 #halfimg {
   background-image: url(../img/poupaps.jpg);
   background-repeat: no-repeat;
@@ -95,6 +98,10 @@ p {
 
 }
 
+.description-service p{
+margin-top: 2%;
+}
+
 .customSizeImg {
   width: 100%;
   max-height : 300px;
@@ -106,7 +113,7 @@ p {
   width: 50%;
 }
 
-.tm-article-title:hover, .tm-site-name:hover,
+.tm-article-title:hover, .tm-site-name:hover, .tm-site-icon:hover,
 .tm-article-icon:hover, footer ul li:nth-child(3) a span:hover {
   color: #09f;
 }
@@ -196,7 +203,8 @@ p {
     opacity: .7;
     color: #fff;
     padding: 30px 0px 2px 0px;
-    margin-top: -0.47%;
+    /* close the gap between footer and rest */
+    margin-top: -.47%;
     /* margin-bottom: 20px; */
 
 }
@@ -324,9 +332,11 @@ footer ul li:nth-child(3) a span {
 
 
 .tm-services-bg {
+  /* image bg pour service */
   background-image: url(../img/new-vision-03.jpg);
 }
 .tm-contact-bg {
+    /* image bg pour contact */
   background-image: url(../img/new-vision-04.jpg);
 }
 
@@ -474,6 +484,9 @@ nav > ul > li {
   color: white;
   padding: 30px 90px 30px 30px;
   margin: 0;
+  /* changed fs to  */
+  font-size: 1.4rem;
+
 }
 
 @media (max-width: 500px) {
@@ -491,7 +504,7 @@ nav > ul > li {
   margin-bottom: 45px;
 }
 
-.tm-hover-color {
+.tm-hover-color, .tm-media div:hover {
   color: #09f;
 }
 
@@ -882,20 +895,23 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .tm-services {
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
+  /* max-width: 1080px; */
+  /* margin-left: auto;
+  margin-right: auto; */
   margin-bottom: 20px;
+
 }
 
-@media (max-width: 768px) {
+/* removed the services */
+/* @media (max-width: 768px) {
   .tm-services {
     max-width: 510px;
   }
 }
 
 .tm-services-img {
-  max-width: 240px;
+  max-width: 300px;
+  width: 100%;
   margin: 0 auto 40px;
 }
 
@@ -904,7 +920,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #09f;
   text-align: center;
   margin-top: 20px;
-}
+} */
 
 .tm-solid-border {
   border: 1px solid #cccdce;
@@ -919,7 +935,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .tm-approach-row {
-  max-width: 1082px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
