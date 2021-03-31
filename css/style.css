@@ -219,9 +219,15 @@ margin-top: 2%;
     background-image: url(../img/books.jpg);
   }
   
-  .tm-contact-bg {
+  .tm-philo-bg {
     background-image: url(../img/philo.jpg);
     opacity: .6;
+  }
+
+  .tm-contact-bg {
+    /* image bg pour contact */
+    background-image: url(../img/op1.png);
+    opacity: .8;
   }
 
   /* Call to Action */
@@ -255,6 +261,86 @@ margin-top: 2%;
 .call-top-action p:nth-child(1) {
   margin-bottom: 10px;
 }
+
+/* custom hover contact */
+.custom-container {
+  position: relative;
+  width: 50%;
+}
+
+.custom-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.custom-container:hover .custom-image {
+  opacity: 0.3;
+}
+
+.custom-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: #09f;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+/* fin custom hover contact */
+
+/* overlay hover */
+.image {
+  display: block;
+  width: 100%;
+  min-height: 269px;
+  height: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text-c {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* fin overlay */
 
 /* Footer */
 
@@ -356,12 +442,6 @@ footer ul li:nth-child(3) a span {
   text-transform: uppercase;
   font-size: 2rem;
   color: #999;
-}
-
-
-.tm-services-bg {
-  /* image bg pour service */
-  background-image: url(../img/new-vision-03.jpg);
 }
 
 @media (max-width: 992px) {
@@ -572,7 +652,21 @@ nav > ul > li {
   margin-bottom: 35px;
 }
 
+.tm-dotted-box-container-2 {
+  margin-bottom: 15px;
+}
+
 .tm-dotted-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted #ccc;
+  padding: 24px;
+  height: 100%;
+  margin-bottom: 15px;
+
+}
+
+.tm-dotted-box-2{
   display: flex;
   flex-direction: column;
   border: 1px dotted #ccc;
