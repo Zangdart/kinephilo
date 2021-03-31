@@ -127,6 +127,11 @@ margin-top: 2%;
   /* margin-bottom: 5%; */
 }
 
+.custom-partner-image {
+  width: 180px;
+  height: 120px;
+}
+
 .tm-media-body {
   margin-left: 3%;
   width: 50%;
@@ -222,6 +227,11 @@ margin-top: 2%;
   .tm-philo-bg {
     background-image: url(../img/philo.jpg);
     opacity: .6;
+  }
+
+  .tm-media-bg {
+    background-image: url(../img/media.jpg);
+    opacity: .7;
   }
 
   .tm-contact-bg {
@@ -367,8 +377,6 @@ footer ul li:nth-child(2) {
     display: inline-block;
     margin-left: 25px;
 }
-
-
 
  footer ul li a span {
     width: 50px;
@@ -608,7 +616,7 @@ nav > ul > li {
   margin-bottom: 45px;
 }
 
-.tm-hover-color, .tm-media div:hover {
+.tm-hover-color, .tm-media div:hover, .hover:hover {
   color: #09f;
 }
 
