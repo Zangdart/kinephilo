@@ -98,14 +98,33 @@ p {
 
 }
 
+.audio-style{
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 2.6%;
+
+}
+
+.audio-content {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+/* text-align: center;
+padding: 50% 0; */
+
+}
+
 .description-service p{
 margin-top: 2%;
 }
 
 .customSizeImg {
   width: 100%;
-  max-height : 300px;
-  margin-bottom: 5%;
+  /* height: auto; */
+  min-height : 390px;
+  max-height : 390px;
+
+  /* margin-bottom: 5%; */
 }
 
 .tm-media-body {
@@ -142,6 +161,10 @@ margin-top: 2%;
 .tm-about-1 {
   padding: 30px;
   max-width: 100%;
+}
+
+.no-bottom-padding {
+ padding-bottom: 0px;
 }
 
 /* membre des associations */
@@ -270,7 +293,7 @@ footer ul li:nth-child(2) {
 /* to the top arrow */
 footer ul li:nth-child(3) {
   position: absolute;
-  margin-left: 43%;
+  margin-left: 40%;
 }
 
 footer ul li:nth-child(3) a span {
