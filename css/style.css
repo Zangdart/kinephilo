@@ -98,8 +98,21 @@ p {
 
 }
 
+@media (min-width: 1800px) {
+  .tm-solid-border {
+    border: 1px solid #cccdce;
+    padding: 40px;
+    height: 214px;
+  }
+}
+
 .green-hover:hover,.green-hover:hover p,.green-hover:hover h3, .green-hover:hover i{
   background-color: #85ec93;
+  color: white;
+}
+
+.golden-hover:hover,.golden-hover:hover p,.golden-hover:hover h3, .golden-hover:hover i{
+  background-color:rgb(236, 198, 128);
   color: white;
 }
 
