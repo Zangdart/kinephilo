@@ -98,6 +98,11 @@ p {
 
 }
 
+.green-hover:hover,.green-hover:hover p,.green-hover:hover h3, .green-hover:hover i{
+  background-color: #85ec93;
+  color: white;
+}
+
 .audio-style{
   width: 100%;
   margin-bottom: 10%;
