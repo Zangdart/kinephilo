@@ -357,6 +357,24 @@ margin-top: 2%;
 }
 /* fin overlay */
 
+/* overla text->img hover */
+.text-c li{
+  list-style: none;
+}
+
+@media (max-width: 992px) {
+  .image {
+    display: block;
+    width: 100%;
+    min-height: 269px;
+    height: auto;
+    max-height: 300px;
+  }
+}
+
+/* fin overlay text->img */
+
+
 /* Footer */
 
 footer {
