@@ -144,6 +144,13 @@ color: rgb(243, 227, 8);
   max-width: 800px;
 }
 
+.customSizeImg {
+  width: 100%;
+  max-height : 300px;
+
+}
+
+/* Big screens */
 @media (min-width: 1800px) {
   .tm-solid-border {
     border: 1px solid #cccdce;
@@ -153,7 +160,11 @@ color: rgb(243, 227, 8);
 
   .customSizeImg {
     width: 100%;
+    /* height: auto; */
+    /* min-height : 390px; */
     max-height : 390px;
+  /* height: 80%; */
+    /* margin-bottom: 5%; */
   }
 }
 
@@ -489,6 +500,19 @@ color: rgb(236, 198, 128);
   list-style: none;
 }
 
+/* for 14" screens */
+@media (max-width: 1600px) {
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 14%;
+  }
+  .custom-contact{
+    height: 150px;
+  }
+}
+/* Laptop about 14"  */
 @media (max-width: 992px) {
   .image {
     display: block;
@@ -497,13 +521,14 @@ color: rgb(236, 198, 128);
     height: auto;
     max-height: 300px;
   }
-}
 
-/* fin overlay text->img */
+  .description-service {
+    height: 246px;
+  }
 
+}/* end 14" */
 
 /* Footer */
-
 footer {
     text-align: center;
     /* margin-top: 30px; */
