@@ -8,6 +8,32 @@ function adjustMainBgHeight() {
     img.css('height', currentHeight);
 }
 
+// // switch contact image size
+// $(dc).on('load', function() {
+//   if ($(window).width() < 500) {
+//     $('#deux').addClass('col-lg-12');
+//     $('#deux').removeClass('col-lg-6');
+//   }
+// })
+
+// var window_weight = $(screen).width();
+// if (window_weight <= 600) {
+//   $('#deux').addClass('col-lg-12');
+//   $('#deux').removeClass('col-lg-6');
+// }
+
+// function resize() {
+//   if ($(window).width() < 500) {
+//     $('#deux').removeClass('col-lg-6').addClass('col-lg-12');
+//   }
+// }
+
+// //watch window resize
+// $(window).on('resize', function() {
+//   resize()
+// });
+
+
 $(document).ready(function(){
     adjustMainBgHeight();
     

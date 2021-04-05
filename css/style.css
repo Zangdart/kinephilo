@@ -1,11 +1,4 @@
 /*
-
-New Vision Template
-
-https://templatemo.com/tm-542-new-vision
-
-
-
     COLORS
     
     Title: #333 (Dark Gray)
@@ -68,6 +61,50 @@ p {
   padding-right: 40px;
 }
 
+.tm-service-icon {
+  text-align: center;
+  min-width: 125px;
+  margin-right: 15px;
+  color: #09f;
+}
+
+.mt-index-custom{
+  /* close the gap between footer and rest */
+  margin-top: -.47%;
+}
+
+/* color for icons */
+.fa-certificate {
+  color : orange;
+}
+
+.fa-hand-paper {
+color: #78cc83;
+}
+
+.fa-file-invoice-dollar,.fa-running {
+  color : green;
+}
+
+.fa-hands {
+color: rgb(238, 207, 67);
+}
+
+.fa-hand-point-down {
+color: rgb(243, 227, 8);
+}
+
+.fa-hand-holding-heart {
+  color: rgba(255, 0, 0, 0.75);
+}
+
+.fa-fire {
+  color: purple;
+}
+
+.fa-praying-hands {
+  color: rgba(231, 145, 159, 0.877);
+}
 
 #halfimg {
   background-image: url(../img/poupaps.jpg);
@@ -77,6 +114,7 @@ p {
   height: 90%;
 }
 
+/* taille video YT */
 .media-size {
   width : 100%; 
   height : 750px;
@@ -106,30 +144,16 @@ p {
   max-width: 800px;
 }
 
-.leftMargin {
-  /* margin-left: 5%; */
-
-}
-
-.customSizeImg {
-  width: 100%;
-  max-height : 300px;
-
-}
-
 @media (min-width: 1800px) {
   .tm-solid-border {
     border: 1px solid #cccdce;
     padding: 40px;
     height: 214px;
   }
+
   .customSizeImg {
     width: 100%;
-    /* height: auto; */
-    /* min-height : 390px; */
     max-height : 390px;
-  /* height: 80%; */
-    /* margin-bottom: 5%; */
   }
 }
 
@@ -150,20 +174,9 @@ p {
 
 }
 
-.audio-content {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-/* text-align: center;
-padding: 50% 0; */
-
-}
-
 .description-service p{
 margin-top: 2%;
 }
-
-
 
 .custom-partner-image {
   width: 180px;
@@ -250,6 +263,16 @@ footer ul li:nth-child(3) {
   margin-left: 40%;
 }
 
+/* images in contact */
+.custom-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 400px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
   /* Smartphones responsive */
   @media (max-width: 500px) {
   .tm-main-bg {
@@ -265,11 +288,29 @@ footer ul li:nth-child(3) {
     margin-right: -15px;
 }
 
+
+body{
+  background-color: #fff;
+}
+
+.mobile-index{
+  /* close the gap between footer and rest */
+  margin-top: -2%;
+}
 .container-fluid {
   max-width: 100%;
   background-color: white;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.custom-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 /* to the top arrow */
@@ -280,6 +321,12 @@ footer ul li:nth-child(3) {
   
 .custom-partner-image {
   width: 94%;
+}
+
+/* resizes videos for media and philo */
+ .media-iframe  {
+  width : 100%; 
+  height : 200px;
 }
 
 }/* smartphones end */
@@ -339,11 +386,6 @@ footer ul li:nth-child(3) {
 
 }
 
-.mt-index-custom{
-  /* close the gap between footer and rest */
-  margin-top: -.47%;
-}
-
 .call-top-action h1 {
     font-size: 35px;
     text-transform: uppercase;
@@ -374,14 +416,8 @@ color: rgb(236, 198, 128);
   width: 50%;
 }
 
-.custom-image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: 400px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
+
+
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -1158,12 +1194,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   padding: 40px;
 }
 
-.tm-service-icon {
-  text-align: center;
-  min-width: 125px;
-  margin-right: 15px;
-  color: #09f;
-}
 
 .tm-approach-row {
   max-width: 100%;
